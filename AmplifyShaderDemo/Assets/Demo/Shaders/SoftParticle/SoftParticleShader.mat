@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Dissolve_LightSide
-  m_Shader: {fileID: 4800000, guid: a9731f889da3664478e7891e811feda3, type: 3}
+  m_Name: SoftParticleShader
+  m_Shader: {fileID: 4800000, guid: 2153d9510dacbfd42832871acca5879c, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -22,10 +22,6 @@ Material:
     m_TexEnvs:
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 80ab37a9e4f49c842903bb43bdd7bcd2, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _NoiseTex:
-        m_Texture: {fileID: 2800000, guid: e24b2c680edaa90458d31f11544d79ca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -47,11 +43,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaCutoff: 0.5
-    - _QueueControl: 0
-    - _QueueOffset: 0
-    - _SideWidth: 0.008
-    - _Strength: 0.158
+    - _Distance: 1
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SideColor: {r: 766.9961, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
