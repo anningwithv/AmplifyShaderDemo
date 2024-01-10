@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Demo\CurvedWorld\SimplePlayerController.cs" />
+    <Compile Include="Assets\Demo\StencilTest\MaskController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Demo\Shaders\Dissolve_HardSide\DissolveHardSide.shader" />
@@ -65,6 +66,7 @@
     <None Include="Assets\Demo\Shaders\DistortFire\DistortFire.shader" />
     <None Include="Assets\Demo\Shaders\CustomData\CustomDataShader.shader" />
     <None Include="Assets\Demo\Shaders\SceneTransition\SceneTransition.shader" />
+    <None Include="Assets\Demo\StencilTest\StencilGeom.shader" />
     <None Include="Assets\Demo\Shaders\Mask\MaskShader.shader" />
     <None Include="Assets\Demo\Shaders\DepthFade\DepthFadeShader.shader" />
     <None Include="Assets\Demo\CurvedWorld\CurvedWorld.shader" />
@@ -72,6 +74,8 @@
     <None Include="Assets\Demo\Shaders\SimpleUnlit.shader" />
     <None Include="Assets\Demo\Shaders\Dissolve_LightSide\Dissolve_LightSide.shader" />
     <None Include="Assets\Demo\Shaders\Hologram\HologramShader.shader" />
+    <None Include="Assets\Demo\StencilTest\StencilMask.shader" />
+    <None Include="Assets\Demo\StencilTest\StencilObject.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
