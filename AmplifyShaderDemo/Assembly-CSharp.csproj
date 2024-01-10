@@ -58,11 +58,13 @@
   <ItemGroup>
     <Compile Include="Assets\Demo\CurvedWorld\SimplePlayerController.cs" />
     <Compile Include="Assets\Demo\StencilTest\MaskController.cs" />
+    <Compile Include="Assets\Demo\FogOfWar\ShaderTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Demo\Shaders\Dissolve_HardSide\DissolveHardSide.shader" />
     <None Include="Assets\Demo\Shaders\SoftParticle\SoftParticleShader.shader" />
     <None Include="Assets\Demo\Shaders\SceneTransition\New Amplify Shader.shader" />
+    <None Include="Assets\Demo\FogPlane\FogPlane.shader" />
     <None Include="Assets\Demo\Shaders\DistortFire\DistortFire.shader" />
     <None Include="Assets\Demo\Shaders\CustomData\CustomDataShader.shader" />
     <None Include="Assets\Demo\Shaders\SceneTransition\SceneTransition.shader" />
@@ -74,6 +76,7 @@
     <None Include="Assets\Demo\Shaders\SimpleUnlit.shader" />
     <None Include="Assets\Demo\Shaders\Dissolve_LightSide\Dissolve_LightSide.shader" />
     <None Include="Assets\Demo\Shaders\Hologram\HologramShader.shader" />
+    <None Include="Assets\Demo\FogOfWar\ShaderStudy.hlsl" />
     <None Include="Assets\Demo\StencilTest\StencilMask.shader" />
     <None Include="Assets\Demo\StencilTest\StencilObject.shader" />
   </ItemGroup>
