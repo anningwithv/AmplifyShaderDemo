@@ -76,6 +76,7 @@
     <None Include="Assets\Demo\Shaders\SimpleUnlit.shader" />
     <None Include="Assets\Demo\Shaders\Dissolve_LightSide\Dissolve_LightSide.shader" />
     <None Include="Assets\Demo\Shaders\Hologram\HologramShader.shader" />
+    <None Include="Assets\Demo\TriPlanar Mapping\TriPlanar.shader" />
     <None Include="Assets\Demo\FogOfWar\ShaderStudy.hlsl" />
     <None Include="Assets\Demo\StencilTest\StencilMask.shader" />
     <None Include="Assets\Demo\StencilTest\StencilObject.shader" />
