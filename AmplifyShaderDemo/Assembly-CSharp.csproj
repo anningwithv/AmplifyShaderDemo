@@ -57,8 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Demo\CurvedWorld\SimplePlayerController.cs" />
-    <Compile Include="Assets\Demo\StencilTest\MaskController.cs" />
     <Compile Include="Assets\Demo\FogOfWar\ShaderTest.cs" />
+    <Compile Include="Assets\Demo\StencilTest\MaskController.cs" />
+    <Compile Include="Assets\Demo\TerrainScanner\Blit.cs" />
+    <Compile Include="Assets\Demo\ScreenBlit\ColorBlitRendererFeature.cs" />
+    <Compile Include="Assets\Demo\PostProcessing\CommonRendererFeature.cs" />
+    <Compile Include="Assets\Demo\PostProcessing\CommonPostVolume.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Demo\Shaders\Dissolve_HardSide\DissolveHardSide.shader" />
@@ -67,6 +71,7 @@
     <None Include="Assets\Demo\FogPlane\FogPlane.shader" />
     <None Include="Assets\Demo\Shaders\DistortFire\DistortFire.shader" />
     <None Include="Assets\Demo\Shaders\CustomData\CustomDataShader.shader" />
+    <None Include="Assets\Demo\ScreenBlit\ColorBlit.shader" />
     <None Include="Assets\Demo\Shaders\SceneTransition\SceneTransition.shader" />
     <None Include="Assets\Demo\StencilTest\StencilGeom.shader" />
     <None Include="Assets\Demo\Shaders\Mask\MaskShader.shader" />
@@ -75,10 +80,12 @@
     <None Include="Assets\Demo\Shaders\UVDistort\UVDistortShader.shader" />
     <None Include="Assets\Demo\Shaders\SimpleUnlit.shader" />
     <None Include="Assets\Demo\Shaders\Dissolve_LightSide\Dissolve_LightSide.shader" />
+    <None Include="Assets\Demo\TerrainScanner\TerrainScanner.shader" />
     <None Include="Assets\Demo\Shaders\Hologram\HologramShader.shader" />
     <None Include="Assets\Demo\TriPlanar Mapping\TriPlanar.shader" />
     <None Include="Assets\Demo\FogOfWar\ShaderStudy.hlsl" />
     <None Include="Assets\Demo\StencilTest\StencilMask.shader" />
+    <None Include="Assets\Demo\PostProcessing\URPScreenTint.shader" />
     <None Include="Assets\Demo\StencilTest\StencilObject.shader" />
   </ItemGroup>
   <ItemGroup>
