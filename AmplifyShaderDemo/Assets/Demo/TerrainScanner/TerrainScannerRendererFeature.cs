@@ -2,16 +2,16 @@ using UnityEngine.Rendering.Universal;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class CommonRendererFeature : ScriptableRendererFeature
+public class TerrainScannerRendererFeature : ScriptableRendererFeature
 {
     public Material UsedMaterial;
     public RenderPassEvent PassEvent = RenderPassEvent.BeforeRenderingPostProcessing;
 
-    CommonPass m_ScriptablePass;
+    TerrainScannerPass m_ScriptablePass;
 
     public override void Create()
     {
-        m_ScriptablePass = new CommonPass(UsedMaterial)
+        m_ScriptablePass = new TerrainScannerPass(UsedMaterial)
         {
             renderPassEvent = PassEvent
         };
@@ -24,7 +24,7 @@ public class CommonRendererFeature : ScriptableRendererFeature
     }
 }
 
-public class CommonPass : ScriptableRenderPass
+public class TerrainScannerPass : ScriptableRenderPass
 {
     static readonly string k_RenderTag = "Common PostProcessing";
 
@@ -35,7 +35,7 @@ public class CommonPass : ScriptableRenderPass
     RenderTargetIdentifier src, temp;
     private RenderTargetHandle destination { get; set; }
 
-    public CommonPass(Material material)
+    public TerrainScannerPass(Material material)
     {
         m_Material = material;
 
@@ -65,14 +65,6 @@ public class CommonPass : ScriptableRenderPass
         if (!renderingData.cameraData.postProcessEnabled) return;
 
         var cmd = CommandBufferPool.Get(k_RenderTag);
-
-        VolumeStack volumes = VolumeManager.instance.stack;
-        CommonPostVolume cpv = volumes.GetComponent<CommonPostVolume>();
-        if (cpv.IsActive())
-        {
-            m_Material.SetFloat("_Intensity", (float)cpv.Intensity);
-            m_Material.SetColor("_OverlayColor", (Color)cpv.Color);
-        }
 
         Render(cmd, ref renderingData);
         context.ExecuteCommandBuffer(cmd);

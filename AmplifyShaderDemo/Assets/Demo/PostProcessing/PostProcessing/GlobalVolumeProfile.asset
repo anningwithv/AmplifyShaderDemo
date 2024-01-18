@@ -56,7 +56,7 @@ MonoBehaviour:
   components:
   - {fileID: 1881579288749618558}
   - {fileID: -32820517437979890}
-  - {fileID: 7348230333654795954}
+  - {fileID: 6223912252989156971}
 --- !u!114 &1881579288749618558
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -73,7 +73,7 @@ MonoBehaviour:
   mode:
     m_OverrideState: 1
     m_Value: 1
---- !u!114 &7348230333654795954
+--- !u!114 &6223912252989156971
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -88,7 +88,7 @@ MonoBehaviour:
   active: 1
   Intensity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 2.06
   Color:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0.49685526, b: 0.49685526, a: 1}
+    m_Value: {r: 0.11764705, g: 1, b: 0.21809104, a: 1}

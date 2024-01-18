@@ -43,7 +43,8 @@ MonoBehaviour:
   - {fileID: 933383155635443781}
   - {fileID: 2607246856780782463}
   - {fileID: 6395069872321588147}
-  m_RendererFeatureMap: adc0de57c6d2eee545d8fbe6080bf40c7f1b2cd433cd2e24b3eb87952adabf58
+  - {fileID: 6030439948557570442}
+  m_RendererFeatureMap: adc0de57c6d2eee545d8fbe6080bf40c7f1b2cd433cd2e24b3eb87952adabf588a5119bd2e6db053
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -162,6 +163,21 @@ MonoBehaviour:
       restoreCamera: 1
       offset: {x: 0, y: 0, z: 0, w: 0}
       cameraFieldOfView: 60
+--- !u!114 &6030439948557570442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a25534f962ffa3448b2e11513909019f, type: 3}
+  m_Name: TerrainScannerRendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  UsedMaterial: {fileID: 2100000, guid: b8dac063ae7a7c44cab8987335c57535, type: 2}
+  PassEvent: 550
 --- !u!114 &6395069872321588147
 MonoBehaviour:
   m_ObjectHideFlags: 0

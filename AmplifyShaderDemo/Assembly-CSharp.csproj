@@ -59,15 +59,18 @@
     <Compile Include="Assets\Demo\CurvedWorld\SimplePlayerController.cs" />
     <Compile Include="Assets\Demo\FogOfWar\ShaderTest.cs" />
     <Compile Include="Assets\Demo\StencilTest\MaskController.cs" />
-    <Compile Include="Assets\Demo\TerrainScanner\Blit.cs" />
     <Compile Include="Assets\Demo\ScreenBlit\ColorBlitRendererFeature.cs" />
     <Compile Include="Assets\Demo\PostProcessing\CommonRendererFeature.cs" />
     <Compile Include="Assets\Demo\PostProcessing\CommonPostVolume.cs" />
+    <Compile Include="Assets\Demo\TerrainScanner\TerrainScannerVolume.cs" />
+    <Compile Include="Assets\Demo\TerrainScanner\TerrainScannerRendererFeature.cs" />
+    <Compile Include="Assets\Demo\TerrainScanner\ScanController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Demo\Shaders\Dissolve_HardSide\DissolveHardSide.shader" />
     <None Include="Assets\Demo\Shaders\SoftParticle\SoftParticleShader.shader" />
     <None Include="Assets\Demo\Shaders\SceneTransition\New Amplify Shader.shader" />
+    <None Include="Assets\Demo\TerrainScanner\TerrainScanner2.shader" />
     <None Include="Assets\Demo\FogPlane\FogPlane.shader" />
     <None Include="Assets\Demo\Shaders\DistortFire\DistortFire.shader" />
     <None Include="Assets\Demo\Shaders\CustomData\CustomDataShader.shader" />
@@ -80,7 +83,6 @@
     <None Include="Assets\Demo\Shaders\UVDistort\UVDistortShader.shader" />
     <None Include="Assets\Demo\Shaders\SimpleUnlit.shader" />
     <None Include="Assets\Demo\Shaders\Dissolve_LightSide\Dissolve_LightSide.shader" />
-    <None Include="Assets\Demo\TerrainScanner\TerrainScanner.shader" />
     <None Include="Assets\Demo\Shaders\Hologram\HologramShader.shader" />
     <None Include="Assets\Demo\TriPlanar Mapping\TriPlanar.shader" />
     <None Include="Assets\Demo\FogOfWar\ShaderStudy.hlsl" />
