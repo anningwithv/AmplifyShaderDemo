@@ -65,6 +65,7 @@
     <Compile Include="Assets\Demo\TerrainScanner\TerrainScannerVolume.cs" />
     <Compile Include="Assets\Demo\TerrainScanner\TerrainScannerRendererFeature.cs" />
     <Compile Include="Assets\Demo\TerrainScanner\ScanController.cs" />
+    <Compile Include="Assets\Demo\Distortion\GrabPassRendererFeature.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Demo\Shaders\Dissolve_HardSide\DissolveHardSide.shader" />

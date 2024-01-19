@@ -27,8 +27,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _Range: 3.8
-    - _ScanOpacity: 0.39806056
-    - _ScanRange: 120.387886
+    - _ScanOpacity: 0.43133438
+    - _ScanRange: 113.73312
     - _WaveFallOff: 4.83
     m_Colors:
     - _CenterPos: {r: 5.780676, g: -2.0517633, b: -12.715313, a: 0}
